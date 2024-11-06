@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function CitySearch({ onSearch }) {
   const [city, setCity] = useState("");
-
   const handleInputChange = (e) => {
     setCity(e.target.value);
   };
