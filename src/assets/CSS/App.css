@@ -40,12 +40,15 @@ html {
 }
 
 .card__header {
-  background-image: url("/src/assets/img/bg.jpg"); /* URL de tu imagen */
-  background-size: cover; /* Asegura que la imagen cubra todo el espacio */
-  background-position: center; /* Centra la imagen */
-  height: 200px; /* Ajusta el tamaño según tus necesidades */
-  border-radius: 1.5em 1.5em 0 0; /* Aplica border-radius en la parte superior */
-  box-shadow: inset 0 -5px -5px rgba(0, 0, 0, 0.1); /* Sombra interna */
+  position: absolute; /* Posiciona la imagen en relación al contenedor */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Hace que la imagen abarque el contenedor sin perder proporción */
+  margin: 0;
+  box-shadow: inset 0 -5px -5px rgba(0, 0, 0, 1);
+  z-index: -1; /* Elimina cualquier margen de la imagen */
 }
 
 .card__footer {
