@@ -49,7 +49,7 @@ function App() {
   const [coords, setCoords] = useState(initialState);
   const [weather, setWeather] = useState({});
   const [toggle, setToggle] = useState(false);
-  const [city, setCity] = useState("");
+
 
   const fetchWeatherByCity = (cityName) => {
     axios
