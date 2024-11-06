@@ -40,6 +40,11 @@ html {
 }
 
 .card__header {
+  background-image: url("/public/bg.jpg");
+  background-color: var(--md-sys-color-primary);
+  box-shadow: inset 0 -5px -5px rgba(0, 0, 0, 1);
+  background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -47,7 +52,6 @@ html {
   height: auto;
   object-fit: contain;
   margin: 0;
-  box-shadow: inset 0 -5px -5px rgba(0, 0, 0, 1);
   z-index: -1;
 }
 
