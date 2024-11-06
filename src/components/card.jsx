@@ -5,7 +5,7 @@ function Card({ weather, toggle, setToggle }) {
 
   return (
     <div className="card">
-      <img className="card__header" src="/src/assets/img/bg.jpg" alt="header" />
+      <img className="card__header" src="/public/bg.jpg" alt="header" />
       <div className="card__footer">
         <p className="card__title">The Weather App</p>
         <h2 className="card__subtitle">
