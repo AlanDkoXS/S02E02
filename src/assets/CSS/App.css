@@ -40,8 +40,6 @@ html {
 }
 
 .card__header {
-  background-image: url("/src/assets/img/bg.jpg");
-  background-color: var(--md-sys-color-primary);
   position: absolute;
   top: 0;
   left: 0;
