@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#root,
+:host {
+  --md-sys-color-background: #fff8f4;
+  --md-sys-color-on-background: #1f1b18;
+  --md-sys-color-surface: #fff8f4;
+  --md-sys-color-surface-dim: #e1d8d3;
+  --md-sys-color-surface-bright: #fff8f4;
+  --md-sys-color-surface-container-lowest: #ffffff;
+  --md-sys-color-surface-container-low: #fbf2ec;
+  --md-sys-color-surface-container: #f5ece6;
+  --md-sys-color-surface-container-high: #efe6e1;
+  --md-sys-color-surface-container-highest: #eae1db;
+  --md-sys-color-on-surface: #1f1b18;
+  --md-sys-color-surface-variant: #f0e0d3;
+  --md-sys-color-on-surface-variant: #4f453b;
+  --md-sys-color-inverse-surface: #34302c;
+  --md-sys-color-inverse-on-surface: #f8efe9;
+  --md-sys-color-outline: #81756a;
+  --md-sys-color-outline-variant: #d3c4b7;
+  --md-sys-color-shadow: #000000;
+  --md-sys-color-scrim: #000000;
+  --md-sys-color-surface-tint: #7a5732;
+  --md-sys-color-primary: #7a5732;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #d1a67a;
+  --md-sys-color-on-primary-container: #361d00;
+  --md-sys-color-inverse-primary: #ecbe91;
+  --md-sys-color-secondary: #6d5b49;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #fce2cb;
+  --md-sys-color-on-secondary-container: #584736;
+  --md-sys-color-tertiary: #5e6136;
+  --md-sys-color-on-tertiary: #ffffff;
+  --md-sys-color-tertiary-container: #aeb17e;
+  --md-sys-color-on-tertiary-container: #222501;
+  --md-sys-color-error: #ba1a1a;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #ffdad6;
+  --md-sys-color-on-error-container: #410002;
+
+  --md-ref-typescale-brand: 400;
+  --md-ref-typescale-plain: 300;
+  --md-ref-typeface-brand: "Roboto", sans-serif;
+  --md-ref-typeface-plain: "Roboto", sans-serif;
+  --md-sys-typescale-body-medium-size: 1rem;
+  --md-sys-typescale-body-medium-line-height: 1.5rem;
+  --md-elevated-button-container-shape: 2em;
+  --md-sys-shape-corner-small: 4px;
+  --md-sys-shape-corner-medium: 6px;
+  --md-sys-shape-corner-large: 2em;
+
+  color-scheme: light dark;
+  background: var(--md-sys-color-surface-dim);
+  color: var(--md-sys-color-on-primary);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ced4da;
+  outline: none;
+  background-color: var(--md-sys-color-surface-container);
+  border-radius: var(--md-sys-shape-corner-large);
+  color: var(--md-sys-color-primary);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--md-ref-typeface-brand);
+  font-weight: var(--md-ref-typescale-brand);
+  padding: 0.2rem;
+  font-size: 1.5em;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+p {
+  font-family: var(--md-ref-typeface-plain);
+  font-weight: var(--md-ref-typescale-plain);
+}
+
+button {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid transparent;
+  margin: 0.5rem;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  border-radius: var(--md-elevated-button-container-shape);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+button:hover {
+  background-color: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+button:focus-visible {
+  background-color: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--md-sys-color-primary);
+    background-color: var(--md-sys-color-background);
+  }
+
+  a:hover {
+    color: var(--md-sys-color-on-primary);
+  }
+}
