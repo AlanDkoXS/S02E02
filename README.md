@@ -106,9 +106,8 @@ This project is open source and available under the MIT License.
 
 For any questions, you can reach me at:
 
-    ```
+
     Email: alan.quintanapacheco@gmail.com
     Instagram: @anotherguyontheroad
     Twitter: @AlanDKO
     LinkedIn: Alan Quintana
-    ```
