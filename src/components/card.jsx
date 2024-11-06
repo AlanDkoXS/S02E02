@@ -5,14 +5,14 @@ function Card({ weather, toggle, setToggle }) {
 
   return (
     <div className="card">
-      <img className="card__header" src="/public/bg.jpg" alt="header" />
+      <div className="card__header">This is a transparent box with padding.</div>
       <div className="card__footer">
         <p className="card__title">The Weather App</p>
         <h2 className="card__subtitle">
           {weather.city}, {weather.country}
         </h2>
         <div className="card__body">
-          <h3 className="card__main">"{weather.main}"</h3>
+          <h3 className="card__main">Today is {weather.main}</h3>
 
           <div className="card__content">
             <img src={weather.icon} alt={weather.main} width={100} />
