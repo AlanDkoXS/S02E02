@@ -73,12 +73,6 @@ The app is fully responsive and adjusts its layout based on the screen size:
     On mobile devices, the layout is optimized to display a vertical stack of elements.
     On tablet and desktop devices, the content is aligned in a more spacious, horizontal layout.
 
-Example Screenshots
-
-    Mobile View:
-
-    Desktop View:
-
 Contributing
 
     Fork the repository.
